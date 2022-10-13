@@ -1,4 +1,4 @@
-#-----------------[ IMPORT-KONTOL ]-----------------------#
+Use#-----------------[ IMPORT-KONTOL ]-----------------------#
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
@@ -314,7 +314,7 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	iyan_holle=(f' Your Id  : '+str(my_id))
 	iyan_holle(f' Your Ip  : {ip}')
-	print(f' Github   : MsrXx')
+	print(f' Github   : https://github.com/MsrXx/MsrXx.git')
 	iyan_holle('=' * 40)
 	cetak('[bold green] []1. Crack Public\n []0. Exit[bold green]')
 	iyan_holle('=' * 40)
